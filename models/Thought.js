@@ -1,5 +1,5 @@
 // Import necessary modules from 'mongoose'
-const { Schema, Types } = require("mongoose");
+const { Schema, model } = require("mongoose");
 const reactionSchema = require("./Reaction");
 
 // Thought schema definition: includes the Reaction schema as a subdocument.
@@ -44,6 +44,6 @@ thoughtSchema.virtual("reactionCount").get(function () {
 });
 
 // The thought schema is exported for use in the User model
-const Thought = model("thought", thoughtSchema);
+const Thought = model("Thought", thoughtSchema);
 
-module.exports = thoughtSchema;
+module.exports = Thought;

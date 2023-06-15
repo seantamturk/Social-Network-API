@@ -84,7 +84,7 @@ module.exports = {
   },
 
   // Add a reaction to a thought
-  async addReaction(req, res) {
+  async createReaction(req, res) {
     try {
       const thought = await Thought.findOneAndUpdate(
         { _id: req.params.thoughtId },
@@ -96,6 +96,7 @@ module.exports = {
       }
       res.json(thought);
     } catch (err) {
+      console.log(err);
       res.status(500).json({ error: "Failed to add the reaction." });
     }
   },

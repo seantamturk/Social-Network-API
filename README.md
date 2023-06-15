@@ -2,9 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Insomnia demo](./assets/images/insomnia-demo.png)
+![Insomnia demo](./assets/images/socialmediaapidemo.png)
 
-[Video Demo](https://drive.google.com) <!-- Update this placeholder -->
+[Video Demo](https://drive.google.com/file/d/1xV4swTMPgiaycSNFzwjoDQtL7gE66U2m/view?usp=sharing) 
 
 ## Description
 
